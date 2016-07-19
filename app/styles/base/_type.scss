@@ -1,0 +1,121 @@
+// Type
+// All base font and typography styles
+// -------------------------------------------------------------------
+
+
+// Defaults
+body {
+  line-height: $base-line-height;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-reference;
+  font-style: normal;
+}
+
+
+// Headers
+// --------------------------------------------------------------------
+
+.base-header {
+  margin: 0;
+  line-height: $base-line-height;
+  color: $base-font-color;
+}
+
+h1 {
+  @extend .base-header;
+  font-family: $font-secondary;
+  font-size: 2rem;
+  font-weight: $font-secondary-bold;
+
+  &.inline {
+    padding-left: $padding-small;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+h2 {
+  @extend .base-header;
+  font-family: $font-secondary;
+  font-size: 1.65rem;
+  font-weight: $font-secondary-bold;
+}
+
+h3 {
+  @extend .base-header;
+  font-family: $font-secondary;
+  font-size: 1.35rem;
+  font-weight: $font-secondary-bold;
+}
+
+h4 {
+  @extend .base-header;
+  font-family: $font-secondary;
+  font-size: 1rem;
+  font-weight: $font-secondary-bold;
+}
+
+// --------------------------------------------------------------------
+
+
+// Font Utilities
+
+&.bold {
+  font-weight: $font-primary-bold;
+}
+
+&.small {
+  color: $grey-dark;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+&.grey {
+  color: $grey-dark;
+}
+
+
+
+// Body text
+// --------------------------------------------------------------------
+
+// Paragraph styles
+p {
+  margin: 0 0 $padding-small;
+  line-height: $base-line-height;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: 1rem;
+  font-weight: $font-primary-reg;
+}
+
+// Anchor tags
+a {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: $base-line-height;
+  color: $primary;
+  font-family: $base-font-family;
+  font-weight: $font-primary-bold;
+  transition: $transition;
+
+  &.inactive {
+    color: $inactive;
+  }
+
+  &:hover, &:focus, &:active {
+    color: $primary-hover;
+    transition: $transition;
+  }
+}
+
+// Labels
+label {
+  color: $grey-mid;
+  font-family: $font-secondary;
+  font-size: .75rem;
+  font-weight: $font-secondary-bold;
+}

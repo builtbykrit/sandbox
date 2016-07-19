@@ -1,0 +1,107 @@
+// Checkbox Styles
+// All styles for checkboxes in the app
+// --------------------------------------------------------------------
+
+
+.control {
+  font-size: 18px;
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+label.control {
+  margin-bottom: 0;
+  font-family: $font-primary;
+  font-weight: $font-primary-bold;
+  letter-spacing: 0;
+  color: $black;
+  font-size: $base-font-size;
+  text-transform: none;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control__indicator {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: $margin;
+  margin-top: 2px;
+  border-radius: $global-radius;
+  border: 2px solid $grey-mid-light;
+  background: transparent;
+  transition: $transition;
+}
+
+
+// Hover state
+.control:hover input ~ .control__indicator {
+  transition: $transition;
+}
+
+// Focus state
+.control input:focus ~ .control__indicator {
+  background: transparent;
+  transition: $transition;
+}
+
+// Checked state
+.control input:checked ~ .control__indicator {
+  background: $active;
+  border: 2px solid $active;
+  transition: $transition;
+}
+
+// Hover state whilst checked
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: $active;
+  transition: $transition;
+}
+
+// Disabled state
+.control input:disabled ~ .control__indicator {
+  pointer-events: none;
+  opacity: .6;
+  background: #e6e6e6;
+}
+
+// Check mark
+.control__indicator:after {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  content: '';
+  transition: $transition;
+}
+
+// Show check mark
+.control input:checked ~ .control__indicator:after {
+  opacity: 1;
+  transition: $transition;
+}
+
+// Checkbox tick
+.control--checkbox .control__indicator:after {
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transition: $transition;
+}
+
+// Disabled tick colour
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}

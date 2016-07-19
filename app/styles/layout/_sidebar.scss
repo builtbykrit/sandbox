@@ -1,0 +1,41 @@
+// --------------------------------------------------------------------
+// Sidebar
+// All Styles for the sidebar
+// --------------------------------------------------------------------
+
+
+// Main Navigation Sidebar
+.sidebar {
+  position: fixed;
+  width: $sidebar-width;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  padding: $top-bar-height 0 $padding;
+  background-color: $black;
+  z-index: 998;
+
+  ul {
+    margin-top: $margin-big;
+
+    li {
+      position: relative;
+
+      a {
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        padding: $padding-small $padding-mid;
+        color: $grey-dark;
+        transition: $transition;
+
+        &:hover, &:focus, &.active {
+          color: $white;
+          background-color: $dark;
+          transition: $transition;
+        }
+      }
+    }
+  }
+}

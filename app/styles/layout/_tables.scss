@@ -1,0 +1,45 @@
+// --------------------------------------------------------------------
+// Tables
+// All styles for tables
+// --------------------------------------------------------------------
+
+.table-wrapper {
+  overflow-x: scroll;
+  max-width: 100%;
+  position: relative;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  thead {
+    th {
+      @extend label;
+      padding: $table-padding;
+      text-align: left;
+    }
+  }
+
+  tbody {
+  	border-top: $table-border;
+
+  	tr {
+  	  transition: $transition;
+
+  	  &:hover {
+  	    background-color: $grey-light;
+  	    transition: $transition;
+  	  }
+    }
+  }
+
+  // Add a border and padding to table rows
+  td {
+    border-bottom: $table-border;
+    padding: $table-padding;
+    font-size: .85rem;
+  }
+}

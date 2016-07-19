@@ -1,0 +1,247 @@
+// SVG Icons
+// Mixins to make include the data URLs so that the styles aren't
+// ridiculously huge files.
+// --------------------------------------------------------------------
+
+
+// Dashboard
+// --------------------------------------------------------------------
+
+// Dashboard static state
+@mixin dashboard-static() {
+  $icon-stroke-color: $primary-darker;
+  background: url('data:image/svg+xml,
+    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>dashboard</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs></defs>
+	    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	        <g id="Dashboard/Dashboard" transform="translate(-29.000000, -91.000000)" stroke-width="#{$icon-stroke-width}" stroke="#{$icon-stroke-color}">
+	            <g id="Sidebar">
+	                <g id="Group-11" transform="translate(0.000000, 74.000000)">
+	                    <g id="Group-7-Copy-3" transform="translate(29.000000, 17.000000)">
+	                        <g id="dashboard" transform="translate(1.000000, 1.000000)">
+	                            <rect id="Rectangle-761-Copy-7" x="0" y="0" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-9" x="0" y="15.2285714" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-8" x="15.2285714" y="0" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-10" x="15.2285714" y="15.2285714" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                        </g>
+	                    </g>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</svg>');
+}
+
+// Dashboard static state
+@mixin dashboard-active() {
+  $icon-stroke-color: $active;
+  background: url('data:image/svg+xml,
+    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>dashboard</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs></defs>
+	    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	        <g id="Dashboard/Dashboard" transform="translate(-29.000000, -91.000000)" stroke-width="#{$icon-stroke-width}" stroke="#{$icon-stroke-color}">
+	            <g id="Sidebar">
+	                <g id="Group-11" transform="translate(0.000000, 74.000000)">
+	                    <g id="Group-7-Copy-3" transform="translate(29.000000, 17.000000)">
+	                        <g id="dashboard" transform="translate(1.000000, 1.000000)">
+	                            <rect id="Rectangle-761-Copy-7" x="0" y="0" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-9" x="0" y="15.2285714" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-8" x="15.2285714" y="0" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                            <rect id="Rectangle-761-Copy-10" x="15.2285714" y="15.2285714" width="10.7714286" height="10.7714286" rx="3"></rect>
+	                        </g>
+	                    </g>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</svg>');
+}
+
+
+
+
+// Teams
+// --------------------------------------------------------------------
+
+// Teams static state
+@mixin teams-static() {
+  $icon-stroke-color: $primary-darker;
+  background: url('data:image/svg+xml,
+    <svg width="32px" height="28px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>Teams</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs></defs>
+	    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	        <g id="Group-19" transform="translate(1.000000, 1.000000)" stroke="#{$icon-stroke-color}" stroke-width="1.25">
+	            <path d="M7.25374845,14.2624217 L10.0534401,8.8806196 C11.0191656,9.58047434 12.2511484,10 13.5931283,10 C14.5444681,10 15.4405288,9.78916739 16.225641,9.41709257 L18.8209518,14.4060168 C17.1512366,15.2157801 16,16.9271872 16,18.90748 C16,19.0392286 16.0050956,19.1697871 16.0151006,19.2989691 L10.3848018,19.2989691 C10.3948067,19.1697871 10.3999023,19.0392286 10.3999023,18.90748 C10.3999023,16.8010533 9.0973402,14.9988564 7.25374845,14.2624217 Z" id="Combined-Shape"></path>
+	            <ellipse id="Oval-575" cx="13.2021452" cy="5" rx="5.20214521" ry="5"></ellipse>
+	            <ellipse id="Oval-575-Copy-8" cx="21.2021452" cy="19" rx="5.20214521" ry="5"></ellipse>
+	            <ellipse id="Oval-575-Copy-9" cx="5.20214521" cy="19" rx="5.20214521" ry="5"></ellipse>
+	        </g>
+	    </g>
+	</svg>');
+}
+
+// Teams static state
+@mixin teams-active() {
+  $icon-stroke-color: $active;
+  background: url('data:image/svg+xml,
+    <svg width="32px" height="28px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>Teams</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs></defs>
+	    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	        <g id="Group-19" transform="translate(1.000000, 1.000000)" stroke="#{$icon-stroke-color}" stroke-width="1.25">
+	            <path d="M7.25374845,14.2624217 L10.0534401,8.8806196 C11.0191656,9.58047434 12.2511484,10 13.5931283,10 C14.5444681,10 15.4405288,9.78916739 16.225641,9.41709257 L18.8209518,14.4060168 C17.1512366,15.2157801 16,16.9271872 16,18.90748 C16,19.0392286 16.0050956,19.1697871 16.0151006,19.2989691 L10.3848018,19.2989691 C10.3948067,19.1697871 10.3999023,19.0392286 10.3999023,18.90748 C10.3999023,16.8010533 9.0973402,14.9988564 7.25374845,14.2624217 Z" id="Combined-Shape"></path>
+	            <ellipse id="Oval-575" cx="13.2021452" cy="5" rx="5.20214521" ry="5"></ellipse>
+	            <ellipse id="Oval-575-Copy-8" cx="21.2021452" cy="19" rx="5.20214521" ry="5"></ellipse>
+	            <ellipse id="Oval-575-Copy-9" cx="5.20214521" cy="19" rx="5.20214521" ry="5"></ellipse>
+	        </g>
+	    </g>
+	</svg>');
+}
+
+
+
+
+// Staff Directory
+// --------------------------------------------------------------------
+
+// Staff Directory static state
+@mixin staff-static() {
+  $icon-stroke-color: $primary-darker;
+  background: url('data:image/svg+xml,
+    <svg width="27px" height="34px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+      <title>staff</title>
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+          <g id="Dashboard/Dashboard" transform="translate(-29.000000, -206.000000)" stroke-width="#{$icon-stroke-width}" stroke="#{$icon-stroke-color}">
+              <g id="Sidebar">
+                  <g id="Group-11" transform="translate(0.000000, 74.000000)">
+                      <g id="Group-7-Copy" transform="translate(30.083333, 133.000000)">
+                          <g id="Icons/staff-directory">
+                              <g id="Group-6">
+                                  <path d="M20.8124402,25.4477505 L21.7815656,25.4477505 C23.4520738,25.4477505 24.7856459,24.1072857 24.7856459,22.4537386 L24.7856459,2.99401195 C24.7856459,1.35021434 23.4406734,0 21.7815656,0 L6.97728606,0 C5.3067779,0 3.97320574,1.34046481 3.97320574,2.99401195 L3.97320574,3.993853 L17.8083599,3.993853 C19.4674676,3.993853 20.8124402,5.34406734 20.8124402,6.98786495 L20.8124402,25.4477505 Z" id="Combined-Shape"></path>
+                                  <rect id="Rectangle-761-Copy-4" x="0" y="4" width="20.8124402" height="25.4477505" rx="3"></rect>
+                              </g>
+                              <g id="patients" transform="translate(4.000000, 9.000000)">
+                                  <ellipse id="Oval-575" cx="6.58065417" cy="4.71115015" rx="4.70046727" ry="4.71115015"></ellipse>
+                                  <path d="M0,15.1055925 L1.37861034,13.72746 C1.93928128,13.1669834 3.02318475,12.7126274 3.81428209,12.7126274 L9.34702626,12.7126274 C10.1315397,12.7126274 11.217768,13.1627258 11.782698,13.72746 L13.1613083,15.1055925" id="Combined-Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </g>
+    </svg>');
+}
+
+// Staff Directory static state
+@mixin staff-active() {
+  $icon-stroke-color: $active;
+  background: url('data:image/svg+xml,
+    <svg width="27px" height="34px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+      <title>staff</title>
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+          <g id="Dashboard/Dashboard" transform="translate(-29.000000, -206.000000)" stroke-width="#{$icon-stroke-width}" stroke="#{$icon-stroke-color}">
+              <g id="Sidebar">
+                  <g id="Group-11" transform="translate(0.000000, 74.000000)">
+                      <g id="Group-7-Copy" transform="translate(30.083333, 133.000000)">
+                          <g id="Icons/staff-directory">
+                              <g id="Group-6">
+                                  <path d="M20.8124402,25.4477505 L21.7815656,25.4477505 C23.4520738,25.4477505 24.7856459,24.1072857 24.7856459,22.4537386 L24.7856459,2.99401195 C24.7856459,1.35021434 23.4406734,0 21.7815656,0 L6.97728606,0 C5.3067779,0 3.97320574,1.34046481 3.97320574,2.99401195 L3.97320574,3.993853 L17.8083599,3.993853 C19.4674676,3.993853 20.8124402,5.34406734 20.8124402,6.98786495 L20.8124402,25.4477505 Z" id="Combined-Shape"></path>
+                                  <rect id="Rectangle-761-Copy-4" x="0" y="4" width="20.8124402" height="25.4477505" rx="3"></rect>
+                              </g>
+                              <g id="patients" transform="translate(4.000000, 9.000000)">
+                                  <ellipse id="Oval-575" cx="6.58065417" cy="4.71115015" rx="4.70046727" ry="4.71115015"></ellipse>
+                                  <path d="M0,15.1055925 L1.37861034,13.72746 C1.93928128,13.1669834 3.02318475,12.7126274 3.81428209,12.7126274 L9.34702626,12.7126274 C10.1315397,12.7126274 11.217768,13.1627258 11.782698,13.72746 L13.1613083,15.1055925" id="Combined-Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </g>
+    </svg>');
+}
+
+
+
+// Account
+// --------------------------------------------------------------------
+
+// Account static state
+@mixin account-static() {
+  $icon-stroke-color: $primary-darker;
+  background: url('data:image/svg+xml,
+	<svg width="30px" height="30px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>Icons/Account</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs>
+	        <path d="M12.980621,11.0294118 L12.3651437,11.0294118 L11.2685422,12.1260133 L11.2685422,13.4767847 L11.7623458,13.9705882 L13.5834189,13.9705882 L14.2097187,13.3442884 L14.2097187,12.2585095 L12.980621,11.0294118 Z M15.8816868,5.17671395 L15.6925422,1.99734326 C15.6274136,0.902583056 14.6786048,0 13.5744268,0 L11.6676324,0 C10.5652409,0 9.61514179,0.894241039 9.54951691,1.99734326 L9.36557433,5.08927252 L7.33476005,3.28652164 C6.5145948,2.55846215 5.20546301,2.59114874 4.42469126,3.3719205 L3.07638404,4.72022772 C2.29687551,5.49973624 2.25737791,6.80388165 2.99098518,7.63029651 L4.56889858,9.40782944 L2.2364737,9.5465882 C1.14171349,9.6117168 0.239130435,10.5605257 0.239130435,11.6647037 L0.239130435,13.571498 C0.239130435,14.6738896 1.13337147,15.6239886 2.2364737,15.6896135 L5.17746978,15.8645769 L3.15800502,18.1395212 C2.42994552,18.9596865 2.46263212,20.2688183 3.24340387,21.04959 L4.59171109,22.3978972 C5.37121962,23.1774058 6.67536502,23.2169034 7.50177988,22.4832961 L9.41745238,20.7827564 L9.54951691,23.0026567 C9.61514179,24.105759 10.5652409,25 11.6676324,25 L13.5744268,25 C14.6786048,25 15.6274136,24.0974169 15.6925422,23.0026567 L15.8298088,20.695315 L17.8439848,22.4832961 C18.6703996,23.2169034 19.974545,23.1774058 20.7540536,22.3978972 L22.1023608,21.04959 C22.8831325,20.2688183 22.9158191,18.9596865 22.1877596,18.1395212 L20.174941,15.8720639 L23.2417872,15.6896135 C24.3448894,15.6239886 25.2391304,14.6738896 25.2391304,13.571498 L25.2391304,11.6647037 C25.2391304,10.5605257 24.3365474,9.6117168 23.2417872,9.5465882 L20.7835123,9.40034247 L22.3547795,7.63029651 C23.0883867,6.80388165 23.0488891,5.49973624 22.2693806,4.72022772 L20.9210734,3.3719205 C20.1403016,2.59114874 18.8311699,2.55846215 18.0110046,3.28652164 L15.8816868,5.17671395 Z" id="path-1"></path>
+	        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25" height="25" fill="white">
+	            <use xlink:href="#path-1"></use>
+	        </mask>
+	    </defs>
+	    <g id="Page-1" stroke="none" stroke-width="#{$icon-stroke-width}" fill="none" fill-rule="evenodd" opacity="0.699999988">
+	        <g id="Dashboard/Dashboard" transform="translate(-29.000000, -269.000000)" stroke="#{$icon-stroke-color}" stroke-width="#{$icon-stroke-width}">
+	            <g id="Sidebar">
+	                <g id="Group-11" transform="translate(0.000000, 74.000000)">
+	                    <g id="Account" transform="translate(29.083333, 195.000000)">
+	                        <g id="Icons/Account">
+	                            <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="3" stroke-linejoin="round" xlink:href="#path-1"></use>
+	                            <ellipse id="Oval-575-Copy-3" stroke-width="#{$icon-stroke-width}" fill="#3AB4E7" cx="12.5127451" cy="12.5" rx="3.5" ry="3.5"></ellipse>
+	                        </g>
+	                    </g>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</svg>');
+}
+
+// Account static state
+@mixin account-active() {
+  $icon-stroke-color: $active;
+  background: url('data:image/svg+xml,
+	<svg width="30px" height="30px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+	    <title>Icons/Account</title>
+	    <desc>Created with Sketch.</desc>
+	    <defs>
+	        <path d="M12.980621,11.0294118 L12.3651437,11.0294118 L11.2685422,12.1260133 L11.2685422,13.4767847 L11.7623458,13.9705882 L13.5834189,13.9705882 L14.2097187,13.3442884 L14.2097187,12.2585095 L12.980621,11.0294118 Z M15.8816868,5.17671395 L15.6925422,1.99734326 C15.6274136,0.902583056 14.6786048,0 13.5744268,0 L11.6676324,0 C10.5652409,0 9.61514179,0.894241039 9.54951691,1.99734326 L9.36557433,5.08927252 L7.33476005,3.28652164 C6.5145948,2.55846215 5.20546301,2.59114874 4.42469126,3.3719205 L3.07638404,4.72022772 C2.29687551,5.49973624 2.25737791,6.80388165 2.99098518,7.63029651 L4.56889858,9.40782944 L2.2364737,9.5465882 C1.14171349,9.6117168 0.239130435,10.5605257 0.239130435,11.6647037 L0.239130435,13.571498 C0.239130435,14.6738896 1.13337147,15.6239886 2.2364737,15.6896135 L5.17746978,15.8645769 L3.15800502,18.1395212 C2.42994552,18.9596865 2.46263212,20.2688183 3.24340387,21.04959 L4.59171109,22.3978972 C5.37121962,23.1774058 6.67536502,23.2169034 7.50177988,22.4832961 L9.41745238,20.7827564 L9.54951691,23.0026567 C9.61514179,24.105759 10.5652409,25 11.6676324,25 L13.5744268,25 C14.6786048,25 15.6274136,24.0974169 15.6925422,23.0026567 L15.8298088,20.695315 L17.8439848,22.4832961 C18.6703996,23.2169034 19.974545,23.1774058 20.7540536,22.3978972 L22.1023608,21.04959 C22.8831325,20.2688183 22.9158191,18.9596865 22.1877596,18.1395212 L20.174941,15.8720639 L23.2417872,15.6896135 C24.3448894,15.6239886 25.2391304,14.6738896 25.2391304,13.571498 L25.2391304,11.6647037 C25.2391304,10.5605257 24.3365474,9.6117168 23.2417872,9.5465882 L20.7835123,9.40034247 L22.3547795,7.63029651 C23.0883867,6.80388165 23.0488891,5.49973624 22.2693806,4.72022772 L20.9210734,3.3719205 C20.1403016,2.59114874 18.8311699,2.55846215 18.0110046,3.28652164 L15.8816868,5.17671395 Z" id="path-1"></path>
+	        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25" height="25" fill="white">
+	            <use xlink:href="#path-1"></use>
+	        </mask>
+	    </defs>
+	    <g id="Page-1" stroke="none" stroke-width="#{$icon-stroke-width}" fill="none" fill-rule="evenodd" opacity="0.699999988">
+	        <g id="Dashboard/Dashboard" transform="translate(-29.000000, -269.000000)" stroke="#{$icon-stroke-color}" stroke-width="#{$icon-stroke-width}">
+	            <g id="Sidebar">
+	                <g id="Group-11" transform="translate(0.000000, 74.000000)">
+	                    <g id="Account" transform="translate(29.083333, 195.000000)">
+	                        <g id="Icons/Account">
+	                            <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="3" stroke-linejoin="round" xlink:href="#path-1"></use>
+	                            <ellipse id="Oval-575-Copy-3" stroke-width="#{$icon-stroke-width}" fill="#3AB4E7" cx="12.5127451" cy="12.5" rx="3.5" ry="3.5"></ellipse>
+	                        </g>
+	                    </g>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</svg>');
+}

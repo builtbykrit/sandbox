@@ -1,0 +1,40 @@
+// --------------------------------------------------------------------
+// Inputs
+// All text input styles
+// --------------------------------------------------------------------
+
+#{$all-text-inputs} {
+  border: 1px solid $grey-dark;
+  outline: none;
+  padding: $padding-small;
+  width: 100%;
+  border-radius: $global-radius;
+  font-size: 1em;
+  transition: $transition;
+
+  @include placeholder {
+    color: $grey-dark;
+  }
+
+  ~ label {
+    transition: $transition;
+  }
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-active} {
+  border: 1px solid $active;
+  transition: $transition;
+
+  ~ label {
+    color: $active;
+    transition: $transition;
+  }
+}
+
+.field {
+	display: flex;
+    flex-flow: column-reverse;
+    width: 100%;
+    padding: $padding-small 0 0;
+}

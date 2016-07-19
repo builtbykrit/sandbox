@@ -1,0 +1,120 @@
+// --------------------------------------------------------------------
+// Variables
+// All global variables for the app
+// --------------------------------------------------------------------
+
+// Base em reference
+$base-reference: 16px;
+
+// Colors
+// All colors in the app
+// --------------------------------------------------------------------
+
+// Greyscale
+$white: #ffffff;
+$grey-light: #F5F7F9;
+$grey-mid-light: #dde5e4;
+$grey-mid: #a9b2b7;
+$grey-dark: #b3b0b7;
+$dark: #404855;
+$black: #333c46;
+
+// Brand
+$primary: #E14659;
+$active: #828CDC;
+$primary-light: mix($primary, $white, 30%);
+$primary-dark: mix($primary, $black, 85%);
+$primary-darker: mix($primary, $black, 60%);
+$active-light: mix($active, $white, 30%);
+$active-dark: mix($active, $black, 85%);
+$active-darker: mix($active, $black, 60%);
+
+// UI Colors
+$inactive: #D1DEEB;
+$red: #FC3F46;
+$green: #FC3F46;
+
+// Hover & Active States
+$primary-hover: mix($primary, $white, 75%);
+$active-hover: mix($active, $black, 75%);
+$red-hover: mix($red, $white, 75%);
+$white-hover: mix($white, $black, 98%);
+
+// --------------------------------------------------------------------
+
+
+
+// Fonts
+// All base font styles
+// --------------------------------------------------------------------
+
+// Font Stacks
+$font-primary: 'Helvetica', sans-serif !default;
+$font-secondary: 'Helvetica', sans-serif !default;
+
+// Font Weights
+$font-primary-reg: 400;
+$font-primary-bold: 700;
+$font-secondary-reg: 400;
+$font-secondary-bold: 900;
+
+// Defaults
+$base-font-family: $font-primary;
+$base-font-color: $black;
+$base-font-size: $base-reference;
+$base-line-height: 1.65;
+
+// Helpers
+$letter-spacing-wide: 2px;
+
+// --------------------------------------------------------------------
+
+
+
+// Navigation
+// --------------------------------------------------------------------
+
+// Top Bar
+$top-bar-height: 55px;
+
+// Sidebar
+$sidebar-width: 220px;
+
+// --------------------------------------------------------------------
+
+
+
+// Utilities
+// --------------------------------------------------------------------
+
+// Margins
+$margin: 1rem !default;
+$margin-small: $margin / 1.5;
+$margin-big: $margin * 2;
+
+// Padding
+$padding: 1rem !default;
+$padding-small: $padding / 1.5;
+$padding-mid: $padding * 1.5;
+$padding-big: $padding * 2;
+
+// Card Shadows
+$card-shadow: 0px 2px 7px rgba(29,33,42,0.20);
+
+// Tables
+$table-border: 1px solid $grey-mid-light;
+$table-padding: $padding-small $padding-small;
+
+// General Settings
+$global-radius: 3px;
+$transition: .3s ease-in-out;
+
+// --------------------------------------------------------------------
+
+
+// Breakpoints
+// --------------------------------------------------------------------
+
+$big-break: 1100px;
+$mid-break: 860px;
+$small-break: 48rem;

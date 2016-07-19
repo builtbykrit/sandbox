@@ -1,0 +1,51 @@
+<div class="row">
+	<div class="col-sm-12">
+		<h1>Forms</h1>
+		<p>Forms consist of all user inputs, including text inputs, checkboxes, radio buttons, sliders, and buttons.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8">
+		<h3>Text Inputs</h3>
+		<hr>
+		<div class="field">
+			{{input type="text" value="" placeholder="First Name"}}
+			<label>First Name</label>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8">
+		<h3>Checkboxes</h3>
+		<hr>
+		<div class="field">
+			<label class="control control--checkbox">
+				Sample Number 1
+				{{input type="checkbox" name="checked" checked=checked}}
+				<div class="control__indicator"></div>
+			</label>
+		</div>
+		<div class="field">
+			<label class="control control--checkbox">
+				Sample Number 2
+				{{input type="checkbox" name="unchecked" checked=unchecked}}
+				<div class="control__indicator"></div>
+			</label>
+		</div>
+		<div class="field">
+			<label class="control control--checkbox">
+				Unchecked
+				{{input type="checkbox" name="disabled" disabled="true" checked=disabled}}
+				<div class="control__indicator"></div>
+			</label>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8">
+		<h3>Buttons</h3>
+		<hr>
+		<button class="btn-">Primary Button</button>
+	</div>
+</div>
+{{outlet}}

@@ -1,0 +1,22 @@
+// --------------------------------------------------------------------
+// Base Layout
+// Styles for general app layout, including containers, wrapper, etc.
+// --------------------------------------------------------------------
+
+
+// Grid
+// --------------------------------------------------------------------
+
+// Content container
+.container {
+  padding: $padding-big;
+  width: 100%;
+}
+
+.row {
+  padding: $padding 0;
+}
+
+main {
+  padding: $top-bar-height 0 0 $sidebar-width;
+}

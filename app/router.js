@@ -6,7 +6,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('sandbox');
+  this.route('sandbox', { path: '/' }, function() {
+    this.route('intro', { path: '/' });
+    this.route('forms');
+    this.route('typography');
+    this.route('tables');
+  });
 });
 
 export default Router;

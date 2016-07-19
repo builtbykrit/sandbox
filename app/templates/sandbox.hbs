@@ -1,1 +1,36 @@
-{{outlet}}
+<div class="top-bar">
+	<div class="row middle-sm between-sm">
+		<div class="pull-left">
+			<h3>Krit Base Sandbox</h3>
+		</div>
+		<div class="pull-right">
+			<ul>
+				<li><a href="">Settings</a></li>
+				<li><a href="">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="sidebar">
+	<ul>
+		<li>
+			{{#link-to "sandbox.intro"}}Introduction{{/link-to}}
+		</li>
+		<li>
+			{{#link-to "sandbox.typography"}}Typography{{/link-to}}
+		</li>
+		<li>
+			{{#link-to "sandbox.forms"}}Forms{{/link-to}}
+		</li>
+		<li>
+			{{#link-to "sandbox.tables"}}Tables{{/link-to}}
+		</li>
+	</ul>
+</div>
+
+<main>
+    <div class="container">
+		{{outlet}}
+	</div>
+</main>
